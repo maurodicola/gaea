@@ -517,50 +517,6 @@
     }
 
     /* ═══════════════════════════════════════════════════════════════
-       PULSANTI NAVIGAZIONE CAPITOLO
-       ═══════════════════════════════════════════════════════════════ */
-    .chapter-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: var(--space-xl);
-      padding-top: var(--space-lg);
-      border-top: 1px solid rgba(102, 204, 255, 0.1);
-    }
-
-    .chapter-nav-btn {
-      display: flex;
-      align-items: center;
-      gap: var(--space-sm);
-      padding: var(--space-sm) var(--space-md);
-      background: transparent;
-      border: 1px solid rgba(102, 204, 255, 0.3);
-      border-radius: 30px;
-      color: var(--moonlight);
-      text-decoration: none;
-      font-size: 0.9rem;
-      transition: var(--transition-smooth);
-      cursor: pointer;
-    }
-
-    .chapter-nav-btn:hover {
-      background: rgba(102, 204, 255, 0.1);
-      border-color: var(--azure-glow);
-      color: var(--azure-glow);
-      transform: translateY(-2px);
-    }
-
-    .chapter-nav-btn svg {
-      width: 20px;
-      height: 20px;
-    }
-
-    .chapter-nav-btn.disabled {
-      opacity: 0.3;
-      pointer-events: none;
-    }
-
-    /* ═══════════════════════════════════════════════════════════════
        SEZIONE ESPANDIBILE — I CASSETTI NASCOSTI
        ═══════════════════════════════════════════════════════════════ */
     .expandable {
@@ -680,11 +636,6 @@
 
       .section {
         padding: var(--space-lg) var(--space-md);
-      }
-
-      .chapter-nav {
-        flex-direction: column;
-        gap: var(--space-sm);
       }
 
       .lemniscata-container {
@@ -942,20 +893,6 @@
       </div>
     </div>
     
-    <div class="chapter-nav">
-      <a href="#home" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Copertina
-      </a>
-      <a href="#preludio" class="chapter-nav-btn">
-        Preludio
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -1017,20 +954,6 @@
       </div>
     </div>
     
-    <div class="chapter-nav">
-      <a href="#ouverture" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Ouverture
-      </a>
-      <a href="#movimento1" class="chapter-nav-btn">
-        Primo Movimento
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -1493,20 +1416,6 @@
       <!-- Altri capitoli... -->
     </div>
     
-    <div class="chapter-nav">
-      <a href="#preludio" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Preludio
-      </a>
-      <a href="#movimento2" class="chapter-nav-btn">
-        Secondo Movimento
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -2033,20 +1942,6 @@
       <!-- Altri capitoli... -->
     </div>
     
-    <div class="chapter-nav">
-      <a href="#movimento1" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Primo Movimento
-      </a>
-      <a href="#movimento3" class="chapter-nav-btn">
-        Terzo Movimento
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -2279,20 +2174,6 @@
       <!-- Altri capitoli... -->
     </div>
     
-    <div class="chapter-nav">
-      <a href="#movimento2" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Secondo Movimento
-      </a>
-      <a href="#postludio" class="chapter-nav-btn">
-        Postludio
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -2326,20 +2207,6 @@
       </div>
     </div>
     
-    <div class="chapter-nav">
-      <a href="#movimento3" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Terzo Movimento
-      </a>
-      <a href="#appendici" class="chapter-nav-btn">
-        Appendici
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -2460,20 +2327,6 @@
       
     </div>
     
-    <div class="chapter-nav">
-      <a href="#postludio" class="chapter-nav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        Postludio
-      </a>
-      <a href="#home" class="chapter-nav-btn">
-        Copertina
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </a>
-    </div>
   </section>
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -2562,4 +2415,3 @@
   </script>
 </body>
 </html>
-
